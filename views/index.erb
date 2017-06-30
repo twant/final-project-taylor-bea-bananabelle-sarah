@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SnapPack</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+
+  </head>
+  <body>
+      
+      <header>
+          <a href="/"><img src="images/snappack.png" height="150px"></a>
+          
+          <nav>
+            
+             <a href="/about">About Us</a>
+             <a href="#packnow">Pack Now!</a>
+             <a href="/help">Help</a>
+            
+              
+          </nav>
+          
+          
+      </header>
+  
+  <div>
+	  <a href="#packnow"><img src="images/packnow.svg"></a>
+      
+  </div>
+  <a name="packnow"></a> 
+  <div>
+      <h1 id="packnow">Pack Now!</h1>
+<!--     <form method="POST" action="/list_clothing">-->
+<!--
+     <form>
+        
+         <h3>What type of trip are you going on?</h3>
+         
+         <input type="radio" name="chooseone" value="vacation"><label for="vacation"> Vacation</label><br> 
+         
+         <input type="radio" name="chooseone" value="work"><label for="work"> Work</label><br> 
+         <input type="radio" name="chooseone" value="forman"><label for="formal"> Formal</label><br>
+         <input type="radio" name="chooseone" value="outdoor"><label for="outdoor"> Outdoor</label><br> </form>
+         
+          <form> 
+         <h3>What is your gender?</h3>
+         
+         <input type="radio" name="gender" value="female"><label for="female"> Female</label><br> 
+         <input type="radio" name="gender" value="make"><label for="male"> Male</label><br> 
+         <input type="radio" name="gender" value="other"><label for="other"> Other</label><br>
+         </form> 
+         
+         <h3>How many days will you stay?</h3>
+         <select>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+-->
+<!--
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        
+-->
+<!--
+        <form> 
+         <h3>What's the weather like?</h3>
+         
+         <input type="radio" name="weather" value="warm"><label for="warm">Warm</label><br> 
+         
+         <input type="radio" name="weather" value="cold"><label for="cold">Cold</label><br> 
+         </form>
+         
+         <form> 
+         <h3>Will you do laundry?</h3>
+         
+         <input type="radio" name="laundry" value="yes"><label for="yes">Yes</label><br> 
+         
+         <input type="radio" name="laundry" value="no"><label for="no">No</label><br> 
+         
+      
+      </form>
+		 <input type="submit">
+	  </form>
+-->
+
+  </div>
+  
+  <div>
+  	<form action="/results" method="POST">
+  	
+	<fieldset>
+	<h2>What type of trip are you taking?</h2>
+		
+	 	<input type="radio" name="event" value="vacation"><label for="vacation"> Vacation</label><br>   
+        <input type="radio" name="event" value="work"><label for="work"> Work</label><br> 
+        <input type="radio" name="event" value="forman"><label for="formal"> Formal</label><br>
+        <input type="radio" name="event" value="outdoor"><label for="outdoor"> Outdoor</label><br>
+		
+		</fieldset>
+		
+	<fieldset>
+	<h2>How many days are you staying? (Choose up to a month)</h2>
+		
+	 	<select>
+          <option name="days" value="1">1</option>
+          <option name="days" value="2">2</option>
+          <option name="days" value="3">3</option>
+          <option name="days" value="4">4</option>
+          <option name="days" value="5">5</option>
+          <option name="days" value="6">6</option>
+          <option name="days" value="7">7</option>
+          <option name="days" value="8">8</option>
+          <option name="days" value="9">9</option>
+          <option name="days" value="10">10</option>
+          <option name="days" value="11">11</option>
+          <option name="days" value="12">12</option>
+          <option name="days" value="13">13</option>
+          <option name="days" value="14">14</option>
+          <option name="days" value="15">15</option>
+          <option name="days" value="16">16</option>
+          <option name="days" value="17">17</option>
+          <option name="days" value="18">18</option>
+          <option name="days" value="19">19</option>
+          <option name="days" value="20">20</option>
+          <option name="days" value="21">21</option>
+          <option name="days" value="22">22</option>
+          <option name="days" value="23">23</option>
+          <option name="days" value="24">24</option>
+          <option name="days" value="25">25</option>
+          <option name="days" value="26">26</option>
+          <option name="days" value="27">27</option>
+          <option name="days" value="28">28</option>
+          <option name="days" value="29">29</option>
+          <option name="days" value="30">30</option>
+          <option name="days" value="31">31</option>
+        </select>
+		
+		</fieldset>
+		
+		<fieldset>
+	<h2>What is your gender?</h2>
+		
+	 	<input type="radio" name="gender" value="vacation"><label for="Female"> Female</label><br>   
+        <input type="radio" name="gender" value="work"><label for="male"> Male</label><br> 
+        <input type="radio" name="gender" value="forman"><label for="other"> Other</label><br>
+		
+		</fieldset>
+		
+		<fieldset>
+	<h3>What's the weather like?</h3>
+         
+         <input type="radio" name="weather" value="warm"><label for="warm">Warm</label><br> 
+         
+         <input type="radio" name="weather" value="cold"><label for="cold">Cold</label><br>
+		
+		</fieldset>
+		
+		
+		<fieldset>
+	<h3>Will you do laundry?</h3>
+         
+         <input type="radio" name="laundry" value="yes"><label for="yes">Yes</label><br> 
+         
+         <input type="radio" name="laundry" value="no"><label for="no">No</label><br>
+		</fieldset>
+	
+	
+	<fieldset id="btn">
+	 <input type="submit" name="submit" value="Submit">
+	 <input type="reset" name="reset" value="Reset">
+	 </fieldset>
+	</form>
+  	
+  	
+  </div>
+  
+  <footer>Copyright all the dogs</footer>
+  
+  </body>
+</html>

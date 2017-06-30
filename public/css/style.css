@@ -1,0 +1,29 @@
+nav a{
+    color: black;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav {background-color: #FFE97E;
+    padding: 10px;
+    font-family: 'Patrick Hand SC', cursive;
+    text-align: center;
+    
+}
+
+h1, h2, h3, h4, h5, h6, p, nav a, label, footer {font-family: 'Patrick Hand SC', cursive;
+}
+
+body {
+    background-color: #E8E0DB;
+    
+}
+
+header{text-align: center}
+
+label, h3 { font-size: 120%;}
+
+#packnow {text-align: center;}
+
+
